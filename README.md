@@ -62,7 +62,6 @@ This automated pipeline ensures accurate and consistent data recording.
 - Algorithm: **RandomForestRegressor (sklearn)**  
 
 Performed:  
-- Data preprocessing  
 - Train/Test split  
 - Model training  
 - Evaluation using **MAE, MSE, R²**  
@@ -121,21 +120,14 @@ This provides manufacturers an easy, real-time, decision-support tool.
 - NumPy, Pandas  
 - numpy-stl  
 - Scikit-learn (**RandomForestRegressor**)  
-- Streamlit  
-- Joblib  
-
+- Streamlit
+  
 ---
 
 ## 📊 Results & Evaluation
 - Dataset of **30 STL models** processed  
-- Model achieved **high predictive accuracy**  
+- Model achieved **good predictive accuracy**  
 - Streamlit UI tested with multiple real cases  
-
-### Automated system outperformed manual estimation in:
-- ⚡ **Speed**  
-- 🎯 **Accuracy**  
-- 🔁 **Consistency**  
-- 📈 **Scalability**  
 
 ## 🚀 Key Features
 - ✔ Real-time cost estimation  
@@ -149,8 +141,7 @@ This provides manufacturers an easy, real-time, decision-support tool.
 ## 🔮 Future Enhancements
 Based on the report’s future scope:
 - Add material selection options  
-- Include cycle cooling, mold life, and complexity factors  
-- Deploy cloud-based multi-user version  
+- Include cycle cooling, mold life, and complexity factors    
 - Integrate with CAD tools (SolidWorks/Creo)  
 - Use advanced ML models (XGBoost, ANN)  
 - Real-time cost updates using fluctuating material prices  
