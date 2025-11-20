@@ -88,11 +88,15 @@ This provides manufacturers an easy, real-time, decision-support tool.
 ---
 
 ## 📁 Repository Structure
-
-
-├── dataset_creation.ipynb # Dataset extraction from STL files ├── model_training.ipynb # Model training and evaluation ├── app.py # Streamlit app for prediction ├── dataset.csv # Final dataset (extracted + computed data) ├── model.pkl # Trained RandomForest model ├── project_report.pdf # Official project documentation └── README.md # Project explanation
-
-
+```
+├── dataset_creation.ipynb        # Dataset extraction from STL files
+├── model_training.ipynb          # Model training and evaluation
+├── app.py                        # Streamlit app for prediction
+├── dataset.csv                   # Final dataset (extracted + computed data)
+├── model.pkl                     # Trained RandomForest model
+├── project_report.pdf            # Official project documentation
+└── README.md                     # Project explanation
+```
 
 ### 📂 Explanation of Files
 - **dataset_creation.ipynb** → Jupyter notebook for extracting geometric and manufacturing parameters from STL files.  
